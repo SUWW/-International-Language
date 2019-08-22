@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EA761A39C5FA9B776C5D7EC /* libPods-InternationalLanguage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA38F5DB8E287ED74419A726 /* libPods-InternationalLanguage.a */; };
 		9012CD33230CF3B500FBA54D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9012CD32230CF3B500FBA54D /* AppDelegate.m */; };
 		9012CD36230CF3B500FBA54D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9012CD35230CF3B500FBA54D /* ViewController.m */; };
 		9012CD39230CF3B500FBA54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9012CD37230CF3B500FBA54D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		9012CD41230CF3B600FBA54D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9012CD40230CF3B600FBA54D /* main.m */; };
 		9012CD4B230CF3B600FBA54D /* InternationalLanguageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9012CD4A230CF3B600FBA54D /* InternationalLanguageTests.m */; };
 		9012CD56230CF3B600FBA54D /* InternationalLanguageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9012CD55230CF3B600FBA54D /* InternationalLanguageUITests.m */; };
+		9012CD6D230D3F0C00FBA54D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9012CD6F230D3F0C00FBA54D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E96742DCC561EAD696742A4 /* Pods-InternationalLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternationalLanguage.debug.xcconfig"; path = "Target Support Files/Pods-InternationalLanguage/Pods-InternationalLanguage.debug.xcconfig"; sourceTree = "<group>"; };
 		9012CD2E230CF3B500FBA54D /* InternationalLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternationalLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012CD31230CF3B500FBA54D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9012CD32230CF3B500FBA54D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		9012CD51230CF3B600FBA54D /* InternationalLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternationalLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012CD55230CF3B600FBA54D /* InternationalLanguageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InternationalLanguageUITests.m; sourceTree = "<group>"; };
 		9012CD57230CF3B600FBA54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9012CD63230D25A000FBA54D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9012CD64230D25A000FBA54D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9012CD6E230D3F0C00FBA54D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9012CD70230D3F1C00FBA54D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC061BBB1CB58251A1DBDE63 /* Pods-InternationalLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternationalLanguage.release.xcconfig"; path = "Target Support Files/Pods-InternationalLanguage/Pods-InternationalLanguage.release.xcconfig"; sourceTree = "<group>"; };
+		DA38F5DB8E287ED74419A726 /* libPods-InternationalLanguage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InternationalLanguage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA761A39C5FA9B776C5D7EC /* libPods-InternationalLanguage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3608EE3BCCDBC75395863046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E96742DCC561EAD696742A4 /* Pods-InternationalLanguage.debug.xcconfig */,
+				BC061BBB1CB58251A1DBDE63 /* Pods-InternationalLanguage.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E36D6421174D2D72F0A6E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA38F5DB8E287ED74419A726 /* libPods-InternationalLanguage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9012CD25230CF3B500FBA54D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				9012CD49230CF3B600FBA54D /* InternationalLanguageTests */,
 				9012CD54230CF3B600FBA54D /* InternationalLanguageUITests */,
 				9012CD2F230CF3B500FBA54D /* Products */,
+				3608EE3BCCDBC75395863046 /* Pods */,
+				3E36D6421174D2D72F0A6E54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,7 @@
 				9012CD3C230CF3B600FBA54D /* LaunchScreen.storyboard */,
 				9012CD3F230CF3B600FBA54D /* Info.plist */,
 				9012CD40230CF3B600FBA54D /* main.m */,
+				9012CD6F230D3F0C00FBA54D /* Localizable.strings */,
 			);
 			path = InternationalLanguage;
 			sourceTree = "<group>";
@@ -139,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9012CD5A230CF3B600FBA54D /* Build configuration list for PBXNativeTarget "InternationalLanguage" */;
 			buildPhases = (
+				E9DB0A9071AAA8166E9CBF2C /* [CP] Check Pods Manifest.lock */,
 				9012CD2A230CF3B500FBA54D /* Sources */,
 				9012CD2B230CF3B500FBA54D /* Frameworks */,
 				9012CD2C230CF3B500FBA54D /* Resources */,
@@ -217,6 +249,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9012CD25230CF3B500FBA54D;
 			productRefGroup = 9012CD2F230CF3B500FBA54D /* Products */;
@@ -236,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9012CD3E230CF3B600FBA54D /* LaunchScreen.storyboard in Resources */,
+				9012CD6D230D3F0C00FBA54D /* Localizable.strings in Resources */,
 				9012CD3B230CF3B600FBA54D /* Assets.xcassets in Resources */,
 				9012CD39230CF3B500FBA54D /* Main.storyboard in Resources */,
 			);
@@ -256,6 +290,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9DB0A9071AAA8166E9CBF2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternationalLanguage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9012CD2A230CF3B500FBA54D /* Sources */ = {
@@ -304,6 +363,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9012CD38230CF3B500FBA54D /* Base */,
+				9012CD63230D25A000FBA54D /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,8 +372,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				9012CD3D230CF3B600FBA54D /* Base */,
+				9012CD64230D25A000FBA54D /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9012CD6F230D3F0C00FBA54D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9012CD6E230D3F0C00FBA54D /* zh-Hans */,
+				9012CD70230D3F1C00FBA54D /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -382,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -433,6 +505,7 @@
 		};
 		9012CD5B230CF3B600FBA54D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E96742DCC561EAD696742A4 /* Pods-InternationalLanguage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +523,7 @@
 		};
 		9012CD5C230CF3B600FBA54D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC061BBB1CB58251A1DBDE63 /* Pods-InternationalLanguage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
